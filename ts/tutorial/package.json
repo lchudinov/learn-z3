@@ -1,0 +1,21 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "basic-commands": "ts-node ./src/basic-commands.ts"
+  },
+  "keywords": ["z3"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "z3-solver": "^4.12.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20"
+  }
+}

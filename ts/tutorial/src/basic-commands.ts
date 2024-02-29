@@ -14,7 +14,8 @@ async function main() {
   if (check === 'sat') {
     const model = solver.model();
     const aVal = model.eval(a);
-    console.log(`a = ${aVal}`)
+    console.log(`a = ${aVal}`);
+    console.log(`model ${model}`);
   }
   em.PThread.terminateAllThreads();
 }
